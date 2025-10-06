@@ -1,12 +1,14 @@
-# Change these first
-owner: abcdqwerxsa # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# 您的 GitHub 用户名或组织名
+owner: abcdqwerxsa 
+# 您的 Upptime 仓库名称
+repo: upptime 
 
+# 需要监控的网站列表
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
+  - name: huggingface_n8n
+    url: https://aawddaffaf-n8n.hf.space/
+  - name: clawcloud_n8n
+    url: https://n8n-gqzssian.eu-central-1.clawcloudrun.com/
   - name: Hacker News
     url: https://news.ycombinator.com
   - name: Test Broken Site
@@ -17,30 +19,33 @@ sites:
     check: "tcp-ping"
     ipv6: true
 
+# 状态页面的配置
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /upptime
-  baseUrl: /upptime/
+  # 如果您没有自己的域名，请使用 baseUrl。
+  # 将 /upptime 替换为 /你的仓库名称
+  baseUrl: /upptime
+  # 如果您有自己的域名 (例如 status.yourdomain.com)，请取消注释下面这行并填入您的域名
+  # cname: demo.upptime.js.org
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Upptime Status
+  introTitle: "网站在线状态监控"
+  introMessage: "由 Upptime 驱动的实时网站状态监控页面。"
   navbar:
-    - title: Status
+    - title: 状态页
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# workflowSchedule:
-#   graphs: "53 6 * * *"
-#   responseTime: "47 23 * * *"
-#   staticSite: "43 6 * * *"
-#   summary: "41 1 * * *"
-#   updateTemplate: "37 2 * * *"
-#   updates: "31 4 * * *"
-#   uptime: "*/11 * * * *"
+# 简化的工作流定时任务
+# Upptime 默认通过创建 GitHub Issue 来进行故障提醒
+workflowSchedule:
+  graphs: "0 0 * * *"           # 每天午夜生成图表
+  responseTime: "0 23 * * *"   # 每天 23:00 更新响应时间历史记录
+  staticSite: "0 1 * * *"        # 每天 01:00 构建并部署静态状态网站
+  summary: "0 0 * * *"           # 每天午夜发送每日总结
+  updateTemplate: "0 0 * * 0"    # 每周日检查模板更新
+  updates: "0 3 * * *"           # 每天 03:00 检查依赖更新
+  uptime: "*/5 * * * *"          # ！！！关键：每5分钟检查一次网站的在线状态
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Upptime 还支持更详细的通知配置、指派 issue 等
+# 更多信息请查阅: https://upptime.js.org/docs/configuration
