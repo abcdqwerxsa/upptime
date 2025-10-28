@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/aawddaffaf-n8n.hf.space.ico",
     "slug": "huggingface-n8n",
     "status": "up",
-    "uptime": "98.01%",
+    "uptime": "98.11%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "94.11%",
-    "uptimeMonth": "98.01%",
-    "uptimeYear": "98.01%",
-    "time": 213,
-    "timeDay": 155,
-    "timeWeek": 227,
-    "timeMonth": 213,
-    "timeYear": 213,
+    "uptimeMonth": "98.11%",
+    "uptimeYear": "98.11%",
+    "time": 210,
+    "timeDay": 148,
+    "timeWeek": 224,
+    "timeMonth": 210,
+    "timeYear": 210,
     "dailyMinutesDown": {
       "2025-10-23": 594
     }
@@ -31,8 +31,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 429,
-    "timeDay": 444,
-    "timeWeek": 411,
+    "timeDay": 442,
+    "timeWeek": 414,
     "timeMonth": 429,
     "timeYear": 429,
     "dailyMinutesDown": {}
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.99%",
-    "time": 304,
-    "timeDay": 284,
-    "timeWeek": 363,
-    "timeMonth": 318,
-    "timeYear": 304,
+    "time": 306,
+    "timeDay": 407,
+    "timeWeek": 376,
+    "timeMonth": 321,
+    "timeYear": 306,
     "dailyMinutesDown": {
       "2025-10-10": 33
     }
