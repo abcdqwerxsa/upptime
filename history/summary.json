@@ -4,9 +4,9 @@
     "url": "https://aawddaffaf-n8n.hf.space",
     "icon": "https://icons.duckduckgo.com/ip3/aawddaffaf-n8n.hf.space.ico",
     "slug": "huggingface-n8n",
-    "status": "up",
+    "status": "down",
     "uptime": "99.15%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.15%",
@@ -16,6 +16,7 @@
     "timeMonth": 252,
     "timeYear": 242,
     "dailyMinutesDown": {
+      "2025-11-24": 0,
       "2025-11-01": 5,
       "2025-10-23": 594
     }
