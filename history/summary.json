@@ -28,18 +28,20 @@
     "url": "https://n8n-gqzssian.eu-central-1.clawcloudrun.com",
     "icon": "https://icons.duckduckgo.com/ip3/n8n-gqzssian.eu-central-1.clawcloudrun.com.ico",
     "slug": "clawcloud-n8n",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 447,
-    "timeDay": 398,
-    "timeWeek": 463,
-    "timeMonth": 447,
-    "timeYear": 447,
-    "dailyMinutesDown": {}
+    "time": 448,
+    "timeDay": 484,
+    "timeWeek": 476,
+    "timeMonth": 451,
+    "timeYear": 448,
+    "dailyMinutesDown": {
+      "2025-12-28": 0
+    }
   },
   {
     "name": "Hacker News",
